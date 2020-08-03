@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -13,7 +14,6 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "homepage": ".",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
