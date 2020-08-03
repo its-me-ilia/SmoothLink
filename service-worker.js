@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SmoothLink/precache-manifest.8283c6decfef891f03727e4f8801e1f5.js"
+  "/SmoothLink/precache-manifest.b7d00976d041915777ac5802000d4609.js"
 );
 
 self.addEventListener('message', (event) => {
