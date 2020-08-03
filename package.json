@@ -13,6 +13,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "homepage": "http://its-me-ilia.github.io/SmoothLink",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
