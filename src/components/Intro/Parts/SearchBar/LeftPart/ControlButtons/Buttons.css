@@ -1,0 +1,21 @@
+.control-btn-container{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.control-btn{
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.red-btn{
+    background-color: rgb(242,95,88);
+}
+.yellow-btn{
+    background-color: rgb(251,190,60);
+}
+.green-btn{
+    background-color: rgb(149,212,137);
+}

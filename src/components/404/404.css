@@ -1,0 +1,26 @@
+.notfound-container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-size: 6em;
+    color: rgb(86,170,255);
+    background: white;
+    padding-top: 100px;
+}
+
+.notfound-container button{
+    padding: 23px 40px;
+    font-size: .2em;
+    background: transparent;
+    border: 1px solid rgb(86,170,255);
+    border-radius: 40px;
+    color: rgb(86,170,255);
+    cursor: pointer;
+    transition: .2s;
+    outline: none;
+}
+
+.notfound-container button:hover{
+    color: white;
+    background: rgb(86,170,255);
+}

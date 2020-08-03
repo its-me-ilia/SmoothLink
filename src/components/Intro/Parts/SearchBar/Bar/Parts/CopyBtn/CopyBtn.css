@@ -1,0 +1,15 @@
+.copy-btn-container img{
+    width: 22px;
+}
+
+.copy-btn{
+    position: absolute;
+    transform: translate(-80%, -50%);
+    cursor: pointer;
+    transition: 250ms;
+    opacity: 0;
+}
+
+.active-copy{
+    opacity: 1;
+}

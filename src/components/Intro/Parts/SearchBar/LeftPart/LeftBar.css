@@ -1,0 +1,8 @@
+.left-part{
+    display: flex;
+    align-items: center;
+}
+
+.left-part > div {
+    margin: 0 6px;
+}

@@ -1,0 +1,15 @@
+.searchbar-btn{
+    height: 27px;
+    width: 35px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+    cursor: pointer;
+    border-radius: var(--searchbar-btn-border-radius);
+}
+
+.searchbar-btn img{
+    width: 70%;
+}

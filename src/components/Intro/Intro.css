@@ -1,0 +1,124 @@
+.intro-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(238, 241, 243);
+}
+
+/* Logo */
+
+.logo-container{
+    position: absolute;
+    width: 150px;
+    left: 4%;
+    top: 4%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-container span{
+    font-size: 1.1em;
+}
+
+.logo-text{
+    color: grey;
+}
+
+.logo-text-link{
+    color: rgb(86,170,255);
+    font-weight: bolder;
+}
+
+.logo-container img{
+    width: 90%;
+}
+
+/* Intro Content*/
+
+.intro-text {
+    width: 45%;
+    text-align: center;
+    margin: 0 auto 25px auto;
+}
+
+.intro-text h1{
+    margin-bottom: 15px;
+}
+
+.intro-text p {
+    color: rgb(155, 153, 153);
+}
+
+.intro-bg{
+    width: 280px;
+    height: auto;
+    margin: auto;
+}
+
+.intro-bg img{
+    width: 100%;
+}
+
+/* CopyRight */
+
+.copyright{
+    cursor: pointer;
+    font-size: 1.2em;
+    order: 4;
+    margin-top: auto;
+    margin-bottom: 3%;
+}
+
+.copyright a {
+    color: rgb(86,170,255);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1024px){
+    .intro-content{
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .intro-content{
+        margin-bottom: auto;
+        margin-top: 40%;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-container{
+        width: 130px;
+    }
+    .logo-container span{
+        font-size: 1em;
+    }
+    .intro-bg{
+        width: 200px;
+        order: 2;
+        margin: 20px auto;;
+    }
+    .intro-text h1{
+        font-size: 1.4em;
+        margin: 0 auto 15px auto;
+    }
+    .intro-text {
+        width: 55%;
+        order: 3;
+        margin: 10px auto 55px auto;
+    }
+    .intro-text p {
+        font-size: 0.9em;
+    }
+    .copyright{
+        font-size: 1.09em;
+    }
+}
